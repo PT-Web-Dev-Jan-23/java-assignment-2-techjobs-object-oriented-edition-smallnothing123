@@ -18,6 +18,7 @@ public class TestTaskTwo extends AbstractTest {
     public void testSecondLocationConstructorExists() throws ClassNotFoundException {
 
         Class theClass = getClassByName("Location");
+
         Constructor theConstructor = null;
         try {
             theConstructor = theClass.getConstructor(String.class);
